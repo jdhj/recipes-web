@@ -1,0 +1,21 @@
+body {margin:0;}
+h1 {
+    background: cornflowerblue;
+    text-align: center;
+    margin:0;
+}
+nav {
+    background: aliceblue;
+    width: 20em;
+}
+nav ul{
+    padding-left:25px;
+} 
+img {
+    width:250px;
+    border:5px solid blue;
+    padding:7px;
+}
+article {margin-left:40px;}
+footer {background: aliceblue;}
+footer p {margin-bottom: 0;}
