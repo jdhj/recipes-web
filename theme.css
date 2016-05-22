@@ -7,6 +7,10 @@ h1 {
 nav {
     background: aliceblue;
     width: 20em;
+    margin-left: -17em;
+}
+nav:hover {
+    margin-left: 0em;
 }
 nav ul{
     padding-left:25px;
@@ -16,6 +20,15 @@ img {
     border:5px solid blue;
     padding:7px;
 }
+table { 
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {background-color: azure;}
+th,td {
+    border : 2px solid darkblue;
+    padding: 10px;
+}
+th {background-color: aquamarine;}
 article {margin-left:40px;}
 footer {background: aliceblue;}
 footer p {margin-bottom: 0;}
