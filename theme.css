@@ -1,16 +1,26 @@
-body {margin:0;}
+body {
+    margin:0;
+    font-size:120%;
+}
 h1 {
+    position: fixed;
+    width:100%;
     background: cornflowerblue;
     text-align: center;
     margin:0;
+    top:0;
 }
 nav {
+    position: fixed;
     background: aliceblue;
     width: 20em;
     margin-left: -17em;
+    top: 4rem;
+    opacity: 0.8;
 }
 nav:hover {
     margin-left: 0em;
+    opacity: 1;
 }
 nav ul{
     padding-left:25px;
@@ -29,6 +39,11 @@ th,td {
     padding: 10px;
 }
 th {background-color: aquamarine;}
-article {margin-left:40px;}
+article {
+    min-width:20rem;
+    max-width:50rem;
+    margin:auto;
+    margin-top: 4rem;
+}
 footer {background: aliceblue;}
 footer p {margin-bottom: 0;}
